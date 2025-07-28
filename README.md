@@ -1,16 +1,29 @@
-# todo_app
+# 📝 To-Do App (Flutter)
 
-A new Flutter project.
+A clean and minimal To-Do application built using **Flutter** — created for portfolio/demo purposes to showcase real-world development skills.
 
-## Getting Started
+## 📱 Features
 
-This project is a starting point for a Flutter application.
+- Add, edit, and delete tasks
+- Task categorization
+- Local data storage (Hive or SQLite)
+- Light and dark mode support
+- Clean, responsive UI design
+- Ready for extension with notifications or cloud sync
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Tech Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter 3.x
+- Dart
+- Hive / SQLite
+- Provider / Riverpod (for state management)
+- Local Notifications (optional)
+- Material Design
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🚀 Getting Started
+
+To run the project locally:
+
+```bash
+flutter pub get
+flutter run
