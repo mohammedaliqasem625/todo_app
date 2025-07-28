@@ -10,5 +10,12 @@ class Task extends HiveObject {
   @HiveField(1)
   String category;
 
-  Task({required this.title, required this.category});
+  @HiveField(2)
+  DateTime createdAt;
+
+  Task({
+    required this.title,
+    required this.category,
+    required this.createdAt,
+  });
 }
