@@ -1,0 +1,21 @@
+{
+  "@@locale": "en",
+  "title": "My Tasks",
+  "addTask": "Add New Task",
+  "enterTask": "Enter your task...",
+  "remindAt": "Remind at",
+  "pickTime": "Pick Time",
+  "cancel": "Cancel",
+  "add": "Add",
+  "filter": "Filter",
+  "sort": "Sort",
+  "searchHint": "Search tasks...",
+  "noTasks": "No tasks yet...",
+  "editTask": "Edit Task",
+  "completed": "Completed",
+  "active": "Active",
+  "language": "Language",
+  "english": "English",
+  "arabic": "Arabic"
+
+}
