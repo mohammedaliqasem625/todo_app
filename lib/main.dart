@@ -313,7 +313,6 @@ class _TodoHomePageState extends State<TodoHomePage> {
       ),
       body: Column(
         children: [
-          // فیلتر
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: DropdownButton<String>(
@@ -330,7 +329,6 @@ class _TodoHomePageState extends State<TodoHomePage> {
                   .toList(),
             ),
           ),
-          // جستجو
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 8),
             child: TextField(
@@ -342,7 +340,6 @@ class _TodoHomePageState extends State<TodoHomePage> {
               onChanged: (val) => setState(() => searchQuery = val),
             ),
           ),
-          // مرتب‌سازی
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: DropdownButton<String>(
@@ -359,7 +356,6 @@ class _TodoHomePageState extends State<TodoHomePage> {
                   .toList(),
             ),
           ),
-          // لیست تسک‌ها
           Expanded(
             child: filteredTasks.isEmpty
                 ? Center(child: Text(t.noTasks))
