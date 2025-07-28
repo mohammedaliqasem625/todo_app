@@ -1,29 +1,51 @@
 # 📝 To-Do App (Flutter)
 
-A clean and minimal To-Do application built using **Flutter** — created for portfolio/demo purposes to showcase real-world development skills.
+A simple yet powerful to-do list app built with Flutter, supporting:
 
-## 📱 Features
+- ✅ Task creation & deletion
+- 🎯 Category filtering & searching
+- 🌗 Light & dark mode toggle
+- ⏰ Local notifications for reminders
+- 🌐 Multi-language support (English / Arabic)
+- 💾 Persistent storage using Hive
 
-- Add, edit, and delete tasks
-- Task categorization
-- Local data storage (Hive or SQLite)
-- Light and dark mode support
-- Clean, responsive UI design
-- Ready for extension with notifications or cloud sync
+---
 
-## 🛠️ Tech Stack
+## 📸 Screenshots
 
-- Flutter 3.x
-- Dart
-- Hive / SQLite
-- Provider / Riverpod (for state management)
-- Local Notifications (optional)
-- Material Design
+| Light Mode 🇬🇧 | Dark Mode 🇸🇦 |
+|---------------|--------------|
+| ![Light](assets/screenshots/light_en.png) | ![Dark](assets/screenshots/dark_ar.png) |
+
+---
+
+## 🌍 Language Support
+
+- 🇬🇧 English  
+- 🇸🇦 Arabic (العربية)
+
+You can switch languages inside the app using the language selector in the top right corner.
+
+---
+
+## 🔧 Features
+
+- Add, edit and delete tasks easily
+- Filter by category: Work, Personal, Study, etc.
+- Mark tasks as **done**
+- Theme switching between light & dark
+- Reminder notifications using `flutter_local_notifications`
+- Localization with ARB & `flutter_gen`
+
+---
 
 ## 🚀 Getting Started
 
-To run the project locally:
+To run this project:
 
 ```bash
+git clone https://github.com/mohammedaliqasem625/todo_app.git
+cd todo_app
 flutter pub get
+flutter pub run build_runner build --delete-conflicting-outputs
 flutter run
